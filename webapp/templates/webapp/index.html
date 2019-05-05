@@ -9,6 +9,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>OneGEOScinceMonitoring</h1>
+    <h1>OneGEOScienceMonitoring</h1>
+    <form method="POST">
+	    {% csrf_token %}
+	    {{ form }}
+	    <button type="submit">Выбрать</button>
+    </form>
 </body>
 </html>
