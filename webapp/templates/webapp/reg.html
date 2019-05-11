@@ -9,11 +9,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Регистрация</h1>
+    <h1><a href="{% url 'Home' %}">Главная страница</a></h1>
+    <h2>Регистрация</h2>
     <form method="POST">
        {% csrf_token %}
        {{ form }}
        <button type="submit">Зарегистрироваться</button>
     </form>
+    <div>
+        {{ date }}
+    </div>
 </body>
 </html>
