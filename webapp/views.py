@@ -37,6 +37,6 @@ def home(request):
             to = form.cleaned_data.get('to')
             date = to - out
             return render (request, 'webapp/reg.html', {'date': date})   
-    else: 
+    else:
         form = CalcForm()
-    return render (request, 'webapp/index.html', {'form': form})
+    return render (request, 'webapp/index.html', {'form': form,})

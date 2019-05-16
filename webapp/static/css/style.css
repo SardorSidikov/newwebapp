@@ -1,30 +1,14 @@
-h1:link {
-    color:  yellow;
-    font-family: 'Times New Roman', Times, serif;
-    border: 5px;
-    background-color: aqua;
-    
-}
-
-h1:hover {
-    color:  red;
-    font-family: 'Times New Roman', Times, serif;
-    border: 5px;
-    background-color: aqua;
-    
-}
-
-p:link {
-    color: red;
-    font-family:    Arial, Helvetica, sans-serif;
-    border: 10px;
-    background-color: green
-}
-
-p:hover {
+h1  {
     color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 10px;
-    background-color: blueviolet
-    
+}
+
+.body-background {
+    background-image: url("/static/img/earth.jpg");
+}
+
+.background {
+    background: white;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 5px;
 }
